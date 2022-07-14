@@ -3,10 +3,12 @@
    <head>
       <title>The Story of Pocket Pennant Run&#8482</title>
       <meta charset="UTF-8">
+      <link rel="stylesheet" href="styles.css">
    </head>
    <body>
       <header>
-         <h1>&#9918; The Story of Pocket Pennant Run &#8482 &#9918;</h1>
+         <h1 id = "mainHeading">&#9918; The Story of Pocket Pennant Run&#8482 &#9918;</h1>
+         <h2 class = "centered">Navigation</h2>
          <nav>
             <ul>
                <li>
@@ -34,21 +36,17 @@
          <article>
             <section>
                <a name = "origin"></a>
-               <h2>Origin of PPR</h2>
+               <h2 class = "centered">Origin of PPR</h2>
                   <p>
                      Pocket Pennant Run was created as a result of two guys’ longing for something incredibly simple, yet addictingly fun. I, myself, only recently got into the world of tabletop gaming; I stumbled across the community as a result the COVID pandemic. Back in March 2020, my wife and I started playing board games to pass all the newfound time we had. This new interest in board gaming, along with my lifelong love of baseball, led to the creation of my first board game Small Ball, which is a press-your-luck baseball dice game aimed at fans who enjoy the strategies and decisions involved in the game of baseball. As I began promoting the game online, I found a number of communities that took tabletop baseball gaming very seriously. It was in observing these communities that I learned about games such as Strat-O-Matic, APBA, Statis Pro, History Maker, and more; all games I had frankly never heard of before.
                   </p>
                   <figure>
-                     <img src="images/SmallBall.jpg" alt="My first game: Small Ball, a press-your-luck baseball dice game" width="450" height="320">
+                     <img src="images/SmallBall.jpg" alt="My first game: Small Ball, a press-your-luck baseball dice game" width="470" height="320">
                      <figcaption>My first game: Small Ball, a press-your-luck baseball dice game</figcaption>
                   </figure>
                   <p>
                      One of the games I found an early attraction to was Deadball, a relatively new player on the baseball simulation circuit, created by W.M. Akers. The simplicity and ease of play drew me in: all that was required to play was Akers’ book, a scorecard, and some basic player stats. I played mostly by myself, replaying classic series, for a few months until I found an online community. In late 2020, shortly after I joined that community, I participated in a Deadball league, led by my future business partner and friend, Craig Harris. At the conclusion of the league, Craig asked if I’d like to work with him to co-lead another league. Together, we looked over the rules of Deadball and started making our own league-specific tweaks and changes. During that time, I learned that Craig was an accomplished computer programmer and had created supplemental software for Deadball.
                   </p>
-                  <figure>
-                     <img src="images/Deadball.png" alt="Deadball, by W.M. Akers" width="400" height="320">
-                     <figcaption>Deadball, by W.M. Akers <a href="http://wmakers.net/deadball">website</a></figcaption>
-                  </figure>
                   <p>
                      As Craig and I worked through the rules for our upcoming Deadball league, we kept returning to a common theme: keep it simple. Maybe it was our lack of patience, but neither of us enjoyed playing games that took 60+ minutes to complete and required constant shuffling of cards, charts, or binders. As we refined the rules of our league, we began challenging ourselves to boil things down, to figure out how could we simplify the rules without compromising the integrity of the game? I found the process of discovering more efficient ways of doing things to be incredibly fulfilling and enjoyable. Also around that time, I stumbled across a quote by French writer and poet Antoine de Saint-Exupery on a board game design forum that really struck a chord with me:                  </p>
                   <q>
@@ -56,34 +54,35 @@
                   </q>
                   <p>
                      These things led me to a question that ultimately became the cornerstone of what Pocket Pennant Run is: What is the simplest baseball simulation game one could create and still achieve realistic results? It was a challenge I wanted to take on. In May of 2021, I began studying all the baseball games I could find. During this process, I was consistently impressed with the games that had the smallest footprints. Famous Fastballs (Famous Games Company), for example, uses 11 poker-sized cards and has a unique rock-paper-scissors approach to resolving at bats. Back to Basics Baseball (Downey Games) boils all the outcomes and charts down to a set of fast-action cards that the player simply flips. As I learned about the clever ways other games managed to get a full experience with just a few components, some ideas for a game of my own began formulating.                  </p>
-                  <figure>
+                     <figure class = "left">
+                        <img src="images/Deadball.png" alt="Deadball, by W.M. Akers" width="400" height="320">
+                        <figcaption>Deadball, by W.M. Akers <a href="http://wmakers.net/deadball">website</a></figcaption>
+                     </figure>
+                     <figure class = "right">
                      <img src="images/Fastballs.jpg" alt="Famous Fastballs, by Famous Games Company" width="450" height="320">
                      <figcaption>Famous Fastballs, by Famous Games Company <a href="https://www.famousgames.co/collections/famous-card-games/products/baseball-card-game">website</a></figcaption>
                   </figure>
             </section>
             <section>
                <a name = "design"></a>
-               <h2>Designing the Game</h2>
+               <h2 class = "centered">Designing the Game</h2>
                   <p>
                      Early on, the game consisted of ten small charts on two pages of paper for things such as the pitcher, batter, power swings, bunts, and more. Eventually, we took away two of the charts and fit them all on one sheet of paper. The first few iterations of the game also included various dice combinations: two d20s - one for the pitcher and one for the batter, then two d8s added together. Ultimately, we found three d12 dice to be the perfect balance. We also settled on a four-point, letter-grade (“A” through “D”) rating system for batters in four different categories - batting, power, speed, and defense - each of which is based on common statistics, such as batting average (batting) and stolen bases (speed). Pitchers would be rated in four categories as well – fatigue, pitching, control, and defense.
                   </p>
-                  <figure>
+                  <figure class = "left">
                      <img src="images/Game.jpg" alt="Pocket Pennant Run, by C&M Games" width="500" height="320">
                      <figcaption>Pocket Pennant Run, by C&M Games <a href="https://pocketpennantrun.weebly.com/">website</a></figcaption>
                   </figure>
-            </section>
-            <section>
-               <a name = "video"></a>
-               <h2>Unboxing & Brief Explanation</h2>
-                  <figure>
+                  <figure class = "right">
                      <video width="500" height="320" controls>
-                        <source src="videos/PPR.mp4" type="video/mp4">
+                        <source src="videos/PPR.mp4" alt="Unboxing & Brief Explanation" type="video/mp4">
                      </video>
+                     <figcaption>Unboxing & Brief Explanation</figcaption>
                   </figure>
             </section>
             <section>
                <a name = "software"></a>
-               <h2>PPR Manager Software</h2>
+               <h2 class = "centered">PPR Manager Software</h2>
                   <p>
                      As mentioned earlier, Craig is a very accomplished software developer. His main goal was to create a unique piece of software to accompany the physical game so that players could simulate and replay games across the entire history of professional baseball. In Craig’s software, users can load a team from the database and build custom lineups that can be saved for later. Once a few lineups have been built, users can simply choose a home and away team, choose a saved lineup, pick the starting pitchers, and a custom, pre-filled scorecard is generated, ready to be printed or loaded to a tablet. Another feature of the software is the ability to print roster cards, which are poker card-sized sheets that give a gamer an at-a-glance look at the team’s starting lineup, bench, rotation, and bullpen. The game comes with eight pre-printed roster cards, but with the software, a user can print an unlimited number of roster cards to cut out at home. 
                   </p>
@@ -94,32 +93,38 @@
             </section>
             <section>
                <a name = "release"></a>
-               <h2>Release & Reception</h2>
+               <h2 class = "centered">Release & Reception</h2>
                   <p>
                      Pocket Pennant Run was released in December of 2021 by C&M Games Inc., our new company. Thanks in large part to generous promoting by several prominent YouTubers in the baseball gaming community, the game had such a strong release that we sold out of our entire inventory in two days. After restocking, we sold out again in just a week. To date, we’ve sold about 250 copies of the physical game and about 200 copies of the “print and play” PDF edition. Additionally, we did a limited-run Mint Tin Edition of the game and released an official game mat. On the software side, Craig has pushed three updates that have added tons of new features to the Manager Software. We’re in the midst of our second season of a ten-team league that features managers from all around the world. Finally, the game has been featured on the “Digital to Dice” podcast and in “Sports Sim Magazine”.
                   </p>
-                  <figure>
+                  <figure class = "left">
                      <img src="images/Mat.png" alt="Pocket Pennant Run Double-Sided Game Mat" width="650" height="320">
                      <figcaption>Pocket Pennant Run Double-Sided Game Mat <a href="https://www.thegamecrafter.com/games/pocket-pennant-run:-double-sided-game-mat">website</a></figcaption>
                   </figure>
+                  <figure class = "right">
+                     <video width="500" height="320" controls>
+                        <source src="videos/D2D.mp4" alt="Interview with Digital to Dice Podcast" type="video/mp4">
+                     </video>
+                     <figcaption>Interview with Digital to Dice Podcast</figcaption>
             </section>
             <section>
                <a name = "future"></a>
-               <h2>The Future of PPR</h2>
+               <h2 class = "centered">The Future of PPR</h2>
                   <p>
                      Craig and I were overwhelmed with the popularity of the game in the baseball gaming community. The feedback has been very positive, with community members sharing their games on YouTube and providing us with suggestions on things to improve in future editions. We've also been very pleased to see many gamers coming up with their own "homebrew" rules, which are house rules that gamers develop based on their individual tastes. While some game developers don't like players messing with their rules, we embrace the creativity and want people to make the game however they want. On our community Facebook group, which has over 400 members, players share their games, their homebrew rules, and their custom components.
                   </p>
-                  <figure>
+                  <figure class = "left">
                      <img src="images/Facebook.png" alt="Pocket Pennant Run Facebook Community" width="600" height="320">
                      <figcaption>Pocket Pennant Run Facebook Community <a href="https://www.facebook.com/groups/pocketpennantrun">website</a></figcaption>
                   </figure>
-                  <p>
+                  <figure class = "right">
+                     <img src="images/NewLogo.png" alt="New Pocket Pennant Run logo" width="380" height="320">
+                     <figcaption>New Pocket Pennant Run logo for the second edition of the game</figcaption>
+                  </figure>
+                  <p id = "testP" class = "funParagraph">
                      Just a few months after the initial release of Pocket Pennant Run, Craig and I began work on the second edition of the game. We've logged stats for hundreds of games, making subtle tweaks to the game engine to improve the realism and accuracy of the game. Our plan is to release the new edition in December 2022. Additionally, we are releasing a set of All-Time Greats roster cards next month that we anticipate to be a very popular product. Craig has added many new features and thousands of new players to the software database, which will update when the new edition of the game releases. Overall, we're very excited about the next chapter of this journey. The best part of it all is seeing the joy the game has brought to baseball fans all around the world. What started as a small side project has become a big part of our lives and source of constant enjoyment.
                   </p>
-                  <figure>
-                     <img src="images/NewLogo.jpg" alt="New Pocket Pennant Run Logo" width="320" height="320">
-                     <figcaption>New Pocket Pennant Run Logo for the Second Edition of the game</figcaption>
-                  </figure>
+
             </section>
          </article>  
       </main>
